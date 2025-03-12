@@ -1,11 +1,14 @@
 # Verbose CanCanCan 
 
 ## Description
-This is a verbose extension for [CanCanCan](https://github.com/CanCanCommunity/cancancan) that prints the location of matching rule definitions and authorization hooks. It helps developers debug and understand where authorization rules are being applied within their application. [RubyGems](https://rubygems.org/gems/verbose_cancancan)
+This is a verbose extension for [CanCanCan](https://github.com/CanCanCommunity/cancancan) that prints the location of matching rule definitions and authorization hooks on terminal. It helps developers debug and understand where authorization rules are being applied within their application. [RubyGems](https://rubygems.org/gems/verbose_cancancan)
 
 ## Features
 - Displays the location where the selected rule for authorization was defined.
 - Prints the locations where `load_and_authorize_resource` and `authorize!` hooks are defined.
+
+## Screenshot
+![screenshot](demo.png)
 
 ## Installation
 Add this line to your application's Gemfile:
