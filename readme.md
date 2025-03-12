@@ -1,7 +1,7 @@
 # Verbose CanCanCan 
 
 ## Description
-This is a verbose extension for [CanCanCan](https://github.com/CanCanCommunity/cancancan) that prints the location of matching rule definitions and authorization hooks. It helps developers debug and understand where authorization rules are being applied within their application.
+This is a verbose extension for [CanCanCan](https://github.com/CanCanCommunity/cancancan) that prints the location of matching rule definitions and authorization hooks. It helps developers debug and understand where authorization rules are being applied within their application. [RubyGems](https://rubygems.org/gems/verbose_cancancan)
 
 ## Features
 - Displays the location where the selected rule for authorization was defined.
