@@ -1,4 +1,4 @@
-require 'lib/verbose_cancancan/version'
+require_relative 'lib/verbose_cancancan/version'
 
 Gem::Specification.new do |spec|
   spec.name    = 'verbose_cancancan'
