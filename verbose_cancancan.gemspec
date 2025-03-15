@@ -1,9 +1,10 @@
+require 'verbose_cancancan/version'
 
 Gem::Specification.new do |spec|
   spec.name    = 'verbose_cancancan'
   spec.authors = ['Zain Iftikhar']
   spec.email   = ['zainiftikhar22322@gmail.com']
-  spec.version = '0.0.6'
+  spec.version = VerboseCancancan::VERSION
   spec.summary = 'A verbose extension for CanCanCan that prints the location of matching rule definitions and authorization hooks.'
 
   spec.description = <<~EOF

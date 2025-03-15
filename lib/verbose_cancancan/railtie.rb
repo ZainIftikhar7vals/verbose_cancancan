@@ -9,7 +9,7 @@ module VerboseCancancan
       CanCan::Rule.prepend(Rule)
       CanCan::Ability.prepend(Ability)
 
-      CanCan::ControllerResource.singleton_class.prepend(VerboseCancancan::ControllerResource)
+      CanCan::ControllerResource.singleton_class.prepend(ControllerResource)
     end
 
   end
