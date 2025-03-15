@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
   spec.files   = Dir['lib/**/*.rb']
   spec.required_ruby_version = '>= 2.7.0'
 
-  spec.add_dependency 'cancancan'
+  spec.add_dependency 'cancancan', "~> 3.0"
   spec.add_dependency "activesupport", ">= 6.0"
   spec.add_dependency "railties", ">= 6.0"
 

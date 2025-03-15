@@ -30,6 +30,9 @@ bundle install
 
 Once installed, the extension will automatically enhance CanCanCan’s logging to display rule and hook locations when performing authorization checks.
 
+## CanCanCan Compatible Versions
+- From `3.0.0` to `3.5.0`
+
 ## Contributing
 
 Bug reports and pull requests are welcome.
