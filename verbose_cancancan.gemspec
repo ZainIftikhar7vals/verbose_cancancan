@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "activesupport", ">= 6.0"
   spec.add_dependency "railties", ">= 6.0"
 
-  spec.post_install_message = 'Thanks for installing!'
+  spec.post_install_message = 'Thanks for installing!(انسٹال کرنے کا شکریہ)'
 
   spec.metadata = {
   "bug_tracker_uri"   => "https://github.com/ZainIftikhar7vals/verbose_cancancan/issues",
